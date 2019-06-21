@@ -19,6 +19,7 @@ class GramsController < ApplicationController
     end
   end
 
+
   private
 
   def gram_params
