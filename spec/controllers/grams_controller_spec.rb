@@ -14,6 +14,14 @@ RSpec.describe GramsController, type: :controller do
     end 
   end 
 
+  describe "grams#edit action" do 
+    it "should succesfully show the edit form if the gram is found" do
+    end
+
+    it "should return a 404 error message if the gram is not fount" do 
+
+    end 
+  end 
 
   describe "grams#index action" do
     it "should successfully show the page" do
